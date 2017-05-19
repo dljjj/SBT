@@ -19,6 +19,7 @@ public class SampleController implements EmbeddedServletContainerCustomizer {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
+//        SpringApplication.run(TestController.class, args);
     }
 
 	@Override
